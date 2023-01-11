@@ -67,7 +67,7 @@ function drawSnake() {
     snake.y < 0 ||
     snake.y > canvas.height
   ) {
-    if(confirm("Game over! Do you want to restart the game?")) {
+    if(confirm("Game over! Voulez-vous recommencer?")) {
         snake = {
         x: canvas.width / 2,
         y: canvas.height / 2,
